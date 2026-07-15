@@ -1,11 +1,11 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.competitortracker/competitor-tracker",
+  "name": "io.competitortracker.app/mcp",
   "description": "Track competitors from your AI assistant: subscribe to competitors, read their change feed, inspect page snapshots, and manage labels, alerts, and your workspace.",
   "version": "1.0.0",
   "websiteUrl": "https://competitortracker.io/docs/mcp/",
   "repository": {
-    "url": "https://github.com/OWNER/competitor-tracker-mcp",
+    "url": "https://github.com/CofounderGPT/competitor-tracker-mcp",
     "source": "github"
   },
   "remotes": [
