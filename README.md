@@ -1,6 +1,10 @@
+<p align="center">
+  <img src="./icon-512.png" alt="Competitor Tracker & Co." width="120" height="120">
+</p>
+
 # Competitor Tracker MCP server
 
-Track your competitors from inside your AI assistant. This is the remote [Model Context Protocol](https://modelcontextprotocol.io) server for **Competitor Tracker & Co.** — subscribe to competitors, read their change feed, inspect page snapshots, and manage labels, alerts, and your workspace, all without leaving Claude, Cursor, ChatGPT, or any other MCP client.
+Track your competitors from inside your AI assistant. This is the remote [Model Context Protocol](https://modelcontextprotocol.io) server for **Competitor Tracker & Co.** Subscribe to competitors, read their change feed, and pull page snapshots straight from Claude, Cursor, ChatGPT, or any other MCP client. No browser tab required.
 
 - **Website:** https://competitortracker.io
 - **Docs:** https://competitortracker.io/docs/mcp/
@@ -71,7 +75,7 @@ Full per-client instructions live at [competitortracker.io/docs/mcp/connect](htt
 
 ## Authentication
 
-On the first tool call the server walks you through an OAuth sign-in. For headless or automated use, generate an API key in the app and send it as an `X-API-Key` header — see [API keys](https://competitortracker.io/docs/api-keys/).
+On the first tool call the server walks you through an OAuth sign-in. For headless or automated use, generate an API key in the app and send it as an `X-API-Key` header. See [API keys](https://competitortracker.io/docs/api-keys/).
 
 ## Tools
 
@@ -83,7 +87,7 @@ The server exposes ~50 tools across the workspace. A sample:
 | `subscribe_competitor` | Start tracking a competitor by URL |
 | `list_org_changes` | Read the organization-wide change feed, with filters |
 | `get_competitor_timeline` | Chronological activity for one competitor |
-| `list_snapshots` / `get_snapshot` | Tracked-page snapshots with HTML, markdown, and screenshots |
+| `list_snapshots` / `get_snapshot` | Tracked-page snapshots with HTML, markdown and screenshots |
 | `list_labels` / `assign_label` | Organize competitors with labels |
 | `create_dispatch` | Set up a notification / weekly dossier |
 | `create_webhook` | Register a webhook endpoint for changes |
@@ -92,11 +96,11 @@ Read tools need no special scope; **write** tools modify your workspace and **de
 
 ## Who it's for
 
-Founders, product, and marketing teams who already live in an AI assistant and want competitor intelligence — pricing moves, page changes, launches — delivered where they work, not in yet another dashboard.
+Founders, product and marketing teams who already live in an AI assistant and want competitor intelligence where they work: pricing moves, page changes, launches. Not in yet another dashboard.
 
 ## About this repository
 
-This repo is the **public listing and manifest** for the Competitor Tracker MCP server (`server.json`, client config, install notes). The server itself runs remotely at `https://mcp.competitortracker.io/mcp` — there is nothing to build or host here. To use it, just point your client at the endpoint.
+This repo is the **public listing and manifest** for the Competitor Tracker MCP server (`server.json`, client config, install notes). The server itself runs remotely at `https://mcp.competitortracker.io/mcp`, so there is nothing to build or host here. To use it, just point your client at the endpoint.
 
 ## License
 
