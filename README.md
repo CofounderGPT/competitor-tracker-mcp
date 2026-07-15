@@ -8,9 +8,14 @@ Track your competitors from inside your AI assistant. This is the remote [Model 
 
 - **Website:** https://competitortracker.io
 - **Docs:** https://competitortracker.io/docs/mcp/
+- **Demo:** https://competitortracker.io/demo/agent/
 - **MCP endpoint:** `https://mcp.competitortracker.io/mcp`
 - **Transport:** Streamable HTTP
 - **Auth:** OAuth (sign in on first tool call) or an `X-API-Key` header
+
+## See it in action
+
+Not ready to connect? Watch [the agent desk](https://competitortracker.io/demo/agent/): a recorded Claude session on this MCP server, working a live case of 25 competitive-intelligence rivals from April to July. Real tool calls, real detected changes. The [same case as a Monday email brief](https://competitortracker.io/demo/human/) sits next door, and the [demo hub](https://competitortracker.io/demo/) shows both.
 
 ## Connecting
 
