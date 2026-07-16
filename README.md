@@ -4,6 +4,8 @@
 
 # Competitor Tracker MCP server
 
+[![smithery badge](https://smithery.ai/badge/competitortracker/competitortracker)](https://smithery.ai/servers/competitortracker/competitortracker)ó
+
 Track your competitors from inside your AI assistant. This is the remote [Model Context Protocol](https://modelcontextprotocol.io) server for **Competitor Tracker & Co.** Subscribe to competitors, read their change feed, and pull page snapshots straight from Claude, Cursor, ChatGPT, or any other MCP client. No browser tab required.
 
 - **Website:** https://competitortracker.io
